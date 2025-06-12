@@ -14,7 +14,7 @@ python3 -m venv venv
 echo "[*] Activating virtual environment..."
 source venv/bin/activate
 
-# Install from requirements.txt if exists
+# Install from requirements.txt if it exists
 if [[ -f "requirements.txt" ]]; then
     echo "[*] Installing packages from requirements.txt..."
     pip install --upgrade pip
@@ -28,7 +28,7 @@ fi
 # Set executable permissions for script and config
 if [[ -f "autoupdate.py" ]]; then
     chmod +x autoupdate.py
-    echo "[✓] Made auto_update.py executable." 
+    echo "[✓] Made autoupdate.py executable." 
 fi
 
 if [[ -f "auto_update_config.json" ]]; then
@@ -36,4 +36,4 @@ if [[ -f "auto_update_config.json" ]]; then
     echo "[✓] Made auto_update_config.json executable."
 fi
 
-echo "Python environment setup complete." 
+echo "[✔] Python environment setup complete."
