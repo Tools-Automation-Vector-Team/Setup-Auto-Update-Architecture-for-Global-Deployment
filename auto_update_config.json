@@ -1,0 +1,17 @@
+{
+  "git_repos": {
+    "zabbix_templates": "https://github.com/pillai-vivek/zbx-templates.git",
+    "zabbix_scripts": "https://github.com/pillai-vivek/zbx-scripts.git",
+    "grafana_dashboards": "https://github.com/pillai-vivek/grafana-dashboards.git"
+  },
+  "zabbix": {
+    "url": "http://35.203.6.0/api_jsonrpc.php",
+    "user": "Admin",
+    "password": "zabbix"
+  },
+  "grafana": {
+    "url": "http://34.130.47.12:3000",
+    "api_key": "glsa_Cm3pfDFLt5RaNSlufnfDL2WoUhw1mniw_15d58d9a"
+  },
+  "externalscript_path": "/usr/lib/zabbix/externalscripts"
+}
