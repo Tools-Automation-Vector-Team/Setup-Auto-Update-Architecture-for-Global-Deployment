@@ -10,7 +10,7 @@
     "password": "zabbix"
   },
   "grafana": {
-    "url": "http://34.130.47.12:3000",
+    "url": "http://35.203.6.0:3000",
     "api_key": "glsa_Cm3pfDFLt5RaNSlufnfDL2WoUhw1mniw_15d58d9a"
   },
   "externalscript_path": "/usr/lib/zabbix/externalscripts"
