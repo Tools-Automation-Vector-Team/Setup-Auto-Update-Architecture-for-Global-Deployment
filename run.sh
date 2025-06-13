@@ -30,7 +30,7 @@ if [[ -f "apt_update.py" ]]; then
     echo "[✓] Made apt_update.py executable."
 
     echo "[*] Running apt_update.py..."
-    python3 auto_update.py
+    python3 apt_update.py
 else
     echo "[✗] apt_update.py not found!"
 fi
