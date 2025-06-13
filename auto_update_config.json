@@ -5,13 +5,13 @@
     "grafana_dashboards": "https://github.com/pillai-vivek/grafana-dashboards.git"
   },
   "zabbix": {
-    "url": "http://35.203.6.0/api_jsonrpc.php",
+    "url": "http://34.130.10.46/zabbix/api_jsonrpc.php",
     "user": "Admin",
     "password": "zabbix"
   },
   "grafana": {
-    "url": "http://35.203.6.0:3000",
-    "api_key": "glsa_ipqjBSt1h36nWP3k5b3Bf9KBEFvWD2To_a02b0bc7"
+    "url": "http://34.130.10.46:3000",
+    "api_key": "glsa_4q3KPpWcCGdjAmpsCDFbQuFSJ25MZxNw_e746bfe1"
   },
   "externalscript_path": "/usr/lib/zabbix/externalscripts"
 }
