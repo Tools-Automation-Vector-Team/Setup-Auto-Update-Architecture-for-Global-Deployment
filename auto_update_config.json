@@ -11,7 +11,7 @@
   },
   "grafana": {
     "url": "http://35.203.6.0:3000",
-    "api_key": "glsa_Cm3pfDFLt5RaNSlufnfDL2WoUhw1mniw_15d58d9a"
+    "api_key": "glsa_ipqjBSt1h36nWP3k5b3Bf9KBEFvWD2To_a02b0bc7"
   },
   "externalscript_path": "/usr/lib/zabbix/externalscripts"
 }
