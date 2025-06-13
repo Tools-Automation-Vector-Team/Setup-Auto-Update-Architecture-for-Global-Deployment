@@ -3,7 +3,9 @@ A fully automated script to fetch Zabbix templates, external scripts, and Grafan
 
 # Prerequisite
 1). Zabbix Installed on the Server.
+
 2). Grafana Installed on the Server.
+
 3). Edit the auto_update_config.json and Give the
     i. zabbix url 
     ii. username and password
