@@ -6,9 +6,17 @@ A fully automated script to fetch Zabbix templates, external scripts, and Grafan
 
 2). Grafana Installed on the Server.
 
-3). Edit the auto_update_config.json and Give the.
+3). Edit the auto_update_config.json and Give the : 
 
     i. zabbix url 
+       
+       if zabbix is Installed with apache2 then url will be :
+
+          http://34.130.10.46/zabbix/api_jsonrpc.php
+
+       else with nginx : 
+          
+          http://34.130.10.46/api_jsonrpc.php
 
     ii. username and password
 
@@ -21,6 +29,9 @@ A fully automated script to fetch Zabbix templates, external scripts, and Grafan
 
 
 # On the Server install Git 
-sudo apt install git
+    sudo apt install git
 # And run this Comamnd 
-git clone https://github.com/Tools-Automation-Vector-Team/Setup-Auto-Update-Architecture-for-Global-Deployment.git && cd Setup-Auto-Update-Architecture-for-Global-Deployment && chmod +x run.sh && ./run.sh
+
+    git clone https://github.com/Tools-Automation-Vector-Team/Setup-Auto-Update-Architecture-for-Global-Deployment.git && cd Setup-Auto-Update-Architecture-for-Global-Deployment && chmod +x run.sh && ./run.sh
+
+
